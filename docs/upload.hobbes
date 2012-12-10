@@ -1,0 +1,28 @@
+                          Beat/2 Upload Information for Hobbes.nmsu.edu
+                          =============================================
+
+        Archive Filename: beat202r.zip
+       Short Description: Beat/2, Swatch Beat, Internet Time Indicator
+        Long Description: Beat/2 is Swatch Beat, Internet Time Indicator.
+
+                          You need VROBJ.DLL to be installed in the any libpathed directory.
+
+      Proposed directory
+           for placement: /pub/os2/apps/clock/
+
+               Your name: Ken Kinoshita
+           Email address: prettypop@the-music-site.com
+    Program contact name: (same)
+   Program contact email: (same)
+             Program URL: http://www.prettypop.net/
+
+      Would you like the
+   contact email address
+    included in listings? yes
+
+Operating System/Version: Warp4
+ Additional requirements: Watcom VX-REXX Runtime (VROBJ.DLL)
+
+                Replaces: beat201r.zip
+
+

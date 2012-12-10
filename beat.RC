@@ -1,0 +1,10 @@
+;
+; beat.rc
+;
+icon 120 beat.ico
+
+bitmap 301 beat1.bmp
+bitmap 302 beat2.bmp
+bitmap 303 beat3.bmp
+bitmap 304 beat4.bmp
+bitmap 350 ken.bmp
