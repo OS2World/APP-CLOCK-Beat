@@ -256,7 +256,7 @@ Init:
     end
 
     /* Beat/2 Version */
-    Beat2_Version = "2.02"
+    Beat2_Version = "2.03"
     ok = VRSet( "Window1", "Caption", "Beat/2 "beat2_version )
     ok = VRSet( "Window1", "WindowListTitle", "Beat/2 "Beat2_Version)
 
@@ -316,11 +316,9 @@ Init:
             if translate(left(line_text, 6)) = "SET TZ" then do
                 parse var line_text . "=" tzd "," .
 
-                if datatype(right(tzd, 1)) = "NUM" then do
-                    nop
-                end
-                else if datatype(right(tzd, 1)) = "CHAR" then do
-                    tzd = left(tzd, length(tzd) - 3)
+                tzd=tzd||'A'
+                do until right(tzd, 1)='NUM'
+                    tzd = left(tzd, length(tzd) - 1)
                 end
 
                 /* 更にData TypeをCheckする。 例えば、SET TZ=CST等数値が入っていない場合のチェック (2.02, 25-26.Aug.1999) */

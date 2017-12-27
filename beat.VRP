@@ -1,12 +1,12 @@
-VX-REXX OS/2 V2.12 Build B3
+VX-REXX OS/2 V2.14 Build B3
 VRX: Window1.VRX
 MacroPath: VRM:F:\program\rexx\beat
 EXEPath: 
 RunParameters: DEBUGMODE
 RunDirectory: F:\program\rexx\beat
-VRXWindow: __VREMainWindow,1,434,84,807,8000
-VRXWindow: __VRESectionListWindow,1,397,10588,8034,3047
-VRXWindow: __VREToolsWindow,1,6396,84,3878,1589
+VRXWindow: __VREMainWindow,1,434,48,807,8000
+VRXWindow: __VRESectionListWindow,1,397,10551,8034,3047
+VRXWindow: __VREToolsWindow,1,6396,48,10049,1157
 VRXWindow: __VREWindListWindow,1,7588,7022,2650,3150
 UserFile: 1
 UserWindow: Window1,1
