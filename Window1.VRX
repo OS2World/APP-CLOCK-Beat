@@ -317,7 +317,7 @@ Init:
                 parse var line_text . "=" tzd "," .
 
                 tzd=tzd||'A'
-                do until right(tzd, 1)='NUM'
+                do until DataType(right(tzd, 1))='NUM'
                     tzd = left(tzd, length(tzd) - 1)
                 end
 
